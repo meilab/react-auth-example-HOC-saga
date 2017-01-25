@@ -1,0 +1,21 @@
+.Footer {
+  grid-area: Footer;
+  background-color: #afafaf;
+  padding: 10px 12%;
+  display: flex;
+  justify-content: space-between;
+  color: write;
+}
+
+.Footer-nav .Link{
+	font-size: 20px;
+	color: white;
+	padding: 0 12px;
+	border-right: solid 1px white;
+}
+
+@media (max-width: 1600px) {
+	.Footer{
+		padding: 25px 2%;	
+	}
+}

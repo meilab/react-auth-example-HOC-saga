@@ -1,0 +1,14 @@
+
+.Main-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "Top-bar"
+                       "Header"
+                       "Content-container"
+                       "Footer";  
+}
+
+.Content-container {
+  grid-area: Content-container;
+}

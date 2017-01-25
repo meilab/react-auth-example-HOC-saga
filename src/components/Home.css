@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: 12% auto 400px 12%;
+  grid-template-rows: 950px auto;
+  grid-template-areas: "Hero    Hero      Hero      Hero"
+                       ".       Posts     Side-bar  .";
+}
+
+@media (max-width: 1600px) {
+  .container {
+    grid-template-columns: 2% auto 400px 2%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .container {
+    grid-template-columns: 2% auto 2%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "Hero    Hero      Hero"
+                        ".        Posts     ."
+                        ".        Side-bar  .";
+  }
+}

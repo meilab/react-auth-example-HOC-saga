@@ -1,0 +1,26 @@
+.Top-bar{
+	grid-area: Top-bar;
+	background-color: #622b0d;
+	color: white;
+	height: auto;
+	padding: 4px 12%;	
+}
+
+.Top-bar a{
+	float: right;
+	color: white;
+}
+
+.Top-bar .Social-link{
+	margin-right: 7px;
+}
+
+.Top-bar .Contact-link{
+	margin-right: 26px;
+}
+
+@media (max-width: 1600px) {
+	.Top-bar{
+		padding: 4px 2%;	
+	}
+}

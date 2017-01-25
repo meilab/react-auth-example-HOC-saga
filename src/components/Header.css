@@ -1,0 +1,50 @@
+.Header {
+  grid-area: Header;
+  padding: 12px 12%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.Logo{
+	color: #622b0d;
+	font-size: 16px;
+}
+
+.Logo span:nth-child(1){
+	float: left;
+	margin-left: -20px;
+	margin-bottom: -10px;
+}
+
+.Logo span:nth-child(2){
+	clear: both;
+	display: block;
+	font-family: 'lobster two', serif;
+	font-size: 34px;
+}
+
+.Logo span:nth-child(3){
+	float: left;
+	margin-left: 143px;
+	margin-top: -7px;
+}
+
+.Link{
+	font-size: 18px;
+	color: #c8825b;
+	margin: 0 10px;
+}
+
+@media (max-width: 1600px) {
+	.Header{
+		padding: 12px 2%;	
+	}
+}
+
+@media (max-width: 1050px) {
+	.Header {
+		flex-direction: column;
+		align-items: center;
+	}
+}

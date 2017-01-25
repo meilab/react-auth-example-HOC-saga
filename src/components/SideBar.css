@@ -1,0 +1,45 @@
+.Side-bar {
+  grid-area: Side-bar;
+  background-color: #c8825b;
+	padding: 45px 25px 0 25px;
+	margin: 20px 0;
+	color: white;
+}
+
+.Side-bar h2{
+	font-size: 41px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1;
+}
+
+.Critter-pic{
+	margin: 30px 0 20px 0;
+	width: 100%;
+}
+
+.Critter-info{
+	list-style-type: none;
+	font-size: 21px;
+}
+
+.Nominate-text{
+	font-size: 26px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.Side-bar-button{
+	background-color: #632b0d;	
+	margin-top: 15px;
+}
+
+.Button{
+	display: inline-block;
+	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 26px;
+	border-radius: 4px;
+	font-family: Oswald, arial, sans-serif;
+	padding: 3px 35px;
+}

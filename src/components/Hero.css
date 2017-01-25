@@ -1,0 +1,94 @@
+.Hero {
+  grid-area: Hero;
+	/* need to remove below width property,
+	   otherwise the very big backgroud pic will extend beyond the view port
+	*/
+  /*width: 100%;*/
+  padding: 55px 12% 0 12%;
+  background-image: url('http://chris.house/images/hero.jpg');
+	background-size: cover;
+	background-position: center;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: ".        .     Award"
+                      "Message  .         ."
+                      ".        .         .";
+}
+
+.Message {
+  grid-area: Message;
+  width: 300px;
+  height: 380px;
+  border-radius: 50%;
+	background-color: rgba(0, 0, 0, .5);
+	padding-top: 110px;
+	text-align: center;	
+}
+
+.Message p{
+	color: white;
+	text-shadow: 2px 2px black;
+	line-height: 1;
+}
+
+.Message span:first-child{
+	font-size: 42px;
+}
+
+.Message span:last-child{
+	font-size: 67px;
+}
+
+.Message-button{	
+	background-color: #c8825b;	
+	margin-top: 25px;
+}
+
+.Award {
+  grid-area: Award;
+	text-align: center;
+	color: white;
+}
+
+.Award blockquote{
+	font-size: 28px;
+}
+
+.Award cite{
+	display: block;
+	text-align: right;
+	font-style: italic;
+	font-size: 18px;
+}
+
+img {
+	max-width: 100%;
+}
+
+@media (max-width: 1600px) {
+	.Hero{
+		padding: 55px 2% 0 2%;
+	}
+}
+
+@media (max-width: 1050px) {
+	.Hero{
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+		grid-template-areas: "Message"
+												 "Award";
+		justify-content: center;
+		padding: 55px 2%;
+	}
+
+	.Message{
+		background: none;
+		height: auto;
+		width: auto;
+		padding-top: 25px;
+	}
+	.Award{
+		padding-top: 20px;
+	}
+}

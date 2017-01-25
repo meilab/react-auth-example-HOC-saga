@@ -1,0 +1,42 @@
+.Posts {
+  grid-area: Posts;
+  margin-right: 90px;
+}
+
+.Posts h2{
+	font-size: 41px;
+	color: #622b0d;
+	font-weight: normal;
+	padding: 65px 0 25px 0;
+}
+
+.Posts h3 {
+	font-size: 24px;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+.Posts ul {
+	margin-left: 40px;
+}
+
+.Posts li{
+	margin-bottom: 50px;
+}
+
+.Blog-date{
+	color: #632b0d;
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+.Excerpt{
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.Read-more-article{
+	color: #c8825b;
+	font-size: 16px;
+	float: right;
+}
